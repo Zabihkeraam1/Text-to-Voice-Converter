@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Adobe Fangsong Std R";
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 9px;
+}
+body{
+    background-image: linear-gradient(to top right, red, blue);
+}
+label{
+    font-size: 15px;
+    background-color: goldenrod;
+    margin-bottom: 8px;
+    padding: 12px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+textarea{
+    margin-bottom: 8px;
+    background-color: tan;
+    padding: 8px;
+}
+select{
+    width: 290px;
+    padding: 8px;
+    outline: none;
+    background-color: tomato;
+}
+button{
+    padding: 8px 25px;
+    outline: none;
+    background-color: tomato;
+}
